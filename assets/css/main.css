@@ -95,7 +95,7 @@
 	body, input, select, textarea {
 		font-family: "Work Sans", sans-serif;
 		font-size: 13pt;
-		font-weight: 300;
+		font-weight: 700;
 		line-height: 1.65;
 	}
 
@@ -269,6 +269,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #555;
+		font-weight: 800;
 	}
 
 	blockquote {
