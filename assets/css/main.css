@@ -1111,7 +1111,7 @@
 
 	table {
 		margin: 0 0 2em 0;
-		width: 100%;
+		width: 90%;
 	}
 
 		table tbody tr {
@@ -1121,7 +1121,7 @@
 		}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0.45em 0.45em;
 		}
 
 		table th {

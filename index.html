@@ -10,27 +10,28 @@
   <!-- Header -->
     <header id="header">
       <div class="inner">
-        <div class="content">
+        <div class="content" ><br><br>
           <h1>Taller Navideño</h1>
           <H2> Bienvenida!</h2>
 
           <form name="login">
-               <table width="200" border="0">
+               <table width="150x150" border="0" >
                  <tr>
-                   <th scope="row"><h2>Usuario</h2></th>
+                   <th height="23"scope="row"><h3 style="color:white">Usuario</h3></th>
                    <td><span class="cnt">
                      <input name="username" type="text" class="Input" value="" size="20" />
                    </span></td>
                  </tr>
                  <tr>
-                   <th height="33" scope="row"><h2>Contraseña</h2></th>
+                   <th height="23" scope="row"><h3 style="color:white">Contraseña</h3></th>
                    <td><span class="cnt">
                      <input name="password" type="password" class="Input" value="" size="20" />
                    </span></td>
                  </tr>
-                 <tr>
-                   <td><span class="cnt">
-                     <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton" style="color: #EC160C"/>
+                 <tr >
+                    <th  alin-items:"center"></th>
+                   <td><span class="cnt" >
+                  <input value=" Entrar" target="_parent" onclick="Login()"  type="button" class="boton" style="color:red" />
                    </span></td>
                  </tr>
                </table>
@@ -134,16 +135,22 @@
         var done=0;
         var usuario=document.login.username.value;
         var password=document.login.password.value;
-        if (usuario=="admin" && password=="admin") {
+        if (usuario=="codea" && password=="condetodo") {
           window.location="index_user.html";
         }
-        if (usuario=="admin" && password=="admin") {
+        if (usuario=="andrea" && password=="regalo") {
           window.location="index_user.html";
         }
-        if (usuario=="admin" && password=="admin") {
+        if (usuario=="moni" && password=="regalo") {
           window.location="index_user.html";
         }
-        if (usuario=="admin" && password=="admin") {
+        if (usuario=="rosalia" && password=="regalo") {
+          window.location="index_user.html";
+        }
+        if (usuario=="nina" && password=="regalo") {
+          window.location="index_user.html";
+        }
+        if (usuario=="rosalia" && password=="regalo") {
           window.location="index_user.html";
         }
         if (usuario=="" && password=="") {
